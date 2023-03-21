@@ -7,9 +7,7 @@ use GDO\Dog\DOG_User;
 
 final class Autologin extends DOG_Command
 {
-    public function irc_PRIVMSG(DOG_Server $server, DOG_User $user, $to, $text)
-    {
-        
-    }
-}
 
+	public function irc_PRIVMSG(DOG_Server $server, DOG_User $user, $to, $text) {}
+
+}
